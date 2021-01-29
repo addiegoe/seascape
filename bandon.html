@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <link href="style.css" rel="stylesheet" type="text/css"> 
+  <title>Seascape Tours: Explore Bandon</title>
+  <script src="weather.js"></script>
+	</head>
+<body>
+	<div id="header"><center><h1>Seascape Tours</h1></center></div>
+
+	
+<div id="menu">
+  <a href="home.html">Home</a>
+  <a href="astoria.html">Tour Astoria</a>
+  <a href="newport.html">Tour Newport</a>
+  <a href="bandon.html">Tour Bandon</a>
+  <a href="hiking.html">Hike the Coast</a>
+</div>
+
+<div id="mainContent">
+	<h3>Tour Bandon</h3>
+	<div id="scrollBox">
+<table>
+	<tr>
+		<td><img src="images/bandon1.jpg"></td>
+		<td><b>West Coast Game Park</b><br>
+			Drive a short way out of town to access this safari-style wildlife park. You can pet and feed llamas and goats and see a variety of wild animals. Check the company website to find out about meet and greets with baby big cats and bears.
+			<br>
+			image source: <a href="https://pixabay.com/images/id-244676/">Pixabay</a>
+		</td>
+	</tr>
+	<tr>
+		<td><b>Explore Bandon Beaches</b><br>
+			Bandon has many beautiful beaches with unique rock formations and gorgeous views. This section of the coast is gorgeous in all weather and is perfect for having a beach day, watching the sunset, or just snapping a few selfies.
+			<br>
+			image source: <a href="https://commons.wikimedia.org/wiki/File:Face_Rock_(Bandon,_Oregon).jpg">Wikimedia commons</a>
+		</td>
+		<td><img src="images/bandon2.jpg"></td>
+	</tr>
+	<tr>
+		<td><img src="images/bandon3.jpg"></td>
+		<td><b>Horseback Beach Tours</b><br>
+			Bandon Stables provides guided horseback tours for groups. Perfect for families!
+			<br>
+			image source: <a href="https://pixabay.com/images/id-1988775/">Pixabay</a>
+		</td>
+	</tr>
+	<tr>
+		<td><b>Face Rock Creamery</b><br>
+			Check out locally-made cheese and ice cream, enjoy free samples, and be sure to pick up some of the famous "Vampire Killer" garlic cheese curds.
+			<br>
+			image source: <a href="https://commons.wikimedia.org/wiki/File:Face_Rock_Creamery_in_Bandon,_OR_(TK1).JPG">Wikimedia commons</a>
+		</td>
+		<td><img src="images/bandon4.jpg"></td>
+	</tr>
+	</table>
+	<br>
+	<form>
+   <legend>What's the weather?</legend>
+   <label>Press submit to see the current weather in Bandon</label>
+  <br>
+   <input type="text" name="zip" id="zip" value="97411"><br>
+   <input type="submit" name="submit_data" id="submit_data">
+   </form>
+   <table id="results" align="center">
+   <tr>
+   <td id="result_weather">  </td>
+   </tr>
+   <tr>
+   <td id="result_temp">  </td>
+   </tr>
+   </table>
+   <br><br>
+</div>
+</div>
+	<div id="description">
+		<div id="hotels">
+			<b>Recommended Hotels</b>
+			<ul>
+				<li><a href="https://www.innatfacerock.com/">Inn at Face Rock</a> $$</li>
+				<li><a href="http://bandoninn.com/">Bandon Inn $</a></li>
+				<li><a href="https://www.beachcombersnw.com/bandon-oregon.php">Beachcomber Rentals</a> $$-$$$</li>
+			</ul>
+		</div>
+		<div id="restaurants">
+			<b>Recommended Restaurants</b>
+			<ul>
+				<li><a href="https://www.lordbennetts.com/">Lord Bennet's</a></li>
+				<li><a href="http://www.foleysirishpubbandon.com/">Foley's Irish Pub</a></li>
+				<li><a href="https://www.bandonfishmarket.com/">Bandon Fish Market</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="itinerary">
+				Download a sample itinerary:<br>
+			<button type="submit" onclick="window.open('familyweekend.pdf')">Download!</button>
+				</div>
+		<div id=subscribe>
+				Subscribe for updates<br>
+				<form id="signup" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+			<input type="text" name="email" id="email" value="you@email.com">
+        <input type="submit" id = "submit"></form></div>
+	</div>
+</body>
+</html>

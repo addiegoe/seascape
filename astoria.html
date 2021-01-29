@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <link href="style.css" rel="stylesheet" type="text/css"> 
+  <title>Seascape Tours: Explore Astoria</title>
+   <script src="weather.js"></script>
+	</head>
+<body>
+	<div id="header"><center><h1>Seascape Tours</h1></center></div>
+
+	
+<div id="menu">
+  <a href="home.html">Home</a>
+  <a href="astoria.html">Tour Astoria</a>
+  <a href="newport.html">Tour Newport</a>
+  <a href="bandon.html">Tour Bandon</a>
+  <a href="hiking.html">Hike the Coast</a>
+</div>
+
+<div id="mainContent">
+	<h3>Tour Astoria</h3>
+	<div id="scrollBox">
+<table>
+	<tr>
+		<td><img src="images/astoria1.jpg"></td>
+		<td><b>Fort Clatsop</b><br>
+			A replica of the encampment for Lewis and Clark during the the winter of 1805-1806. Learn about local history, stop for a picnic, and take a walk along one of the nearby forest trails.<br>
+			image source: <a href="https://en.wikipedia.org/wiki/Fort_Clatsop#/media/File:Fort_Clatsop_replica_2007.jpg">Wikipedia</a>
+		</td>
+	</tr>
+	<tr>
+		<td><b>Flavel House Museum</b><br>
+			Historical Victorian house with period furnishings. Stop by for a tour and find out about life in Oregon during the Victorian period.<br>
+			image source: <a href="https://pixabay.com/images/id-904528/">Pixabay</a>
+		</td>
+		<td><img src="images/astoria2.jpg"></td>
+	</tr>
+	<tr>
+		<td><img src="images/astoria3.jpg"></td>
+		<td><b>Lightship Columbia</b><br>
+			A historic lightship commissioned in 1951, this ship used to serve as a floating lighthouse for the Columbia River. Tour this ship as part of your admission to the Maritime Museum.
+			<br>
+			image source: <a href="https://en.wikipedia.org/wiki/United_States_lightship_Columbia_(WLV-604)#/media/File:LightshipColumbia.jpg">Wikipedia</a>
+		</td>
+	</tr>
+	<tr>
+		<td><b>Astoria-Megler Bridge</b><br>
+			The longest continous truss bridge in North America, this landmark serves as a great plce to enjoy the view or head over the Columbia River into Washington for a quick visit.
+			<br>
+			image source: <a href="https://pixabay.com/images/id-577113/">Pixabay</a>
+		</td>
+		<td><img src="images/astoria4.jpg"></td>
+	</tr>
+	</table>
+	<br>
+	<form>
+   <legend>What's the weather?</legend>
+   <label>Press submit to see the current weather in Astoria</label>
+  <br>
+   <input type="text" name="zip" id="zip" value="97103"><br>
+   <input type="submit" name="submit_data" id="submit_data">
+   </form>
+   <table id="results" align="center">
+   <tr>
+   <td id="result_weather">  </td>
+   </tr>
+   <tr>
+   <td id="result_temp">  </td>
+   </tr>
+   </table>
+   <br><br>
+</div>
+</div>
+	<div id="description">
+		<div id="hotels">
+			<b>Recommended Hotels</b>
+			<ul>
+				<li><a href="https://www.cannerypierhotel.com/">Cannery Pier Hotel and Spa</a> $$$</li>
+				<li><a href="https://roseriverinn.com/">Rose River Inn Bed & Breakfast</a> $$</li>
+				<li><a href="http://www.commodoreastoria.com/">Commodore Hotel</a> $$</li>
+			</ul>
+		</div>
+		<div id="restaurants">
+			<b>Recommended Restaurants</b>
+			<ul>
+				<li><a href="https://silversalmongrille.com/">Silver Salmon Grille</a></li>
+				<li><a href="https://www.buoybeer.com/">Buoy Beer Company</a></li>
+				<li><a href="http://www.street14cafe.com/">Street 14 Cafe</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="itinerary">
+				Download a sample itinerary:<br>
+			<button type="submit" onclick="window.open('familyweekend.pdf')">Download!</button>
+				</div>
+		<div id=subscribe>
+				Subscribe for updates<br>
+				<form id="signup" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+			<input type="text" name="email" id="email" value="you@email.com">
+        <input type="submit" id = "submit"></form></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <link href="style.css" rel="stylesheet" type="text/css"> 
+  <title>Seascape Tours: Explore the Oregon Coast</title>
+	 <script src="carousel.js"></script>
+	</head>
+<body>
+	<div id="header"><center><h1>Seascape Tours</h1></center></div>
+
+	
+<div id="menu">
+  <a href="home.html">Home</a>
+  <a href="astoria.html">Tour Astoria</a>
+  <a href="newport.html">Tour Newport</a>
+  <a href="bandon.html">Tour Bandon</a>
+  <a href="hiking.html">Hike the Coast</a>
+</div>
+
+<div id="mainContent">
+    <div class="coastscroll"> <img src="images/coastscroll_1.jpg"> </div>
+    <div class="coastscroll"> <img src="images/coastscroll_2.jpg"> </div>
+    <div class="coastscroll"> <img src="images/coastscroll_3.jpg"> </div>
+    <div class="coastscroll"> <img src="images/coastscroll_4.jpg"> </div>
+    <div id="buttons">
+    <a id ="previous" onclick="plusSlides(-1)">&#10094;</a> <a id="next" onclick="plusSlides(1)">&#10095;</a> </div>
+</div>
+	<div id="description"><p>
+		Welcome to Seascape tours! We offer personalized tours of the Oregon Coast. Whether you want a weekend getaway, a fun family trip, or an exhiliarating day hike, we can help create the perfect trip for you. Check out some of our top destinations in the links above, or download a sample itinerary from the link below. Let us show you the stunning beauty and thrilling activities that Oregon's coast has to offer! <i>This is a fictional company made for a school project, but don't let that stop you from checking out some of these destinations!</i></p>
+		<p style="font-size:8pt">Images from Pixabay, royalty-free stock photos. <a href="https://pixabay.com/images/id-51014/">1</a> <a href="https://pixabay.com/images/id-4430530/">2</a> <a href="https://pixabay.com/images/id-50068/">3</a> <a href="https://pixabay.com/images/id-770469/">4</a></p>
+	</div>
+	<div id="footer">
+		<div id="itinerary">
+				Download a sample itinerary:<br>
+			<button type="submit" onclick="window.open('familyweekend.pdf')">Download!</button>
+				</div>
+		<div id=subscribe>
+				Subscribe for updates<br>
+				<form id="signup" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+			<input type="text" name="email" id="email" value="you@email.com">
+        <input type="submit" id = "submit"></form></div>
+	</div>
+</body>
+</html>

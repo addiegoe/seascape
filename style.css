@@ -1,0 +1,146 @@
+body {background-color: #F8F5C7;
+font-family:verdana;
+color:#0870AF;
+}
+
+a {
+	color:#0870AF;
+	text-decoration:none;
+
+}
+
+a:hover
+{
+	color:#41ABD3;
+	text-decoration:none;
+}
+
+img {
+	width:60%;
+}
+
+td{
+	padding:3px;
+}
+
+
+#menu{
+	background-color:#0870AF;
+	color:white;
+	overflow:hidden;
+	margin:left;
+	width:100%;
+	padding:none;
+
+}
+
+#menu a
+{
+	float:left;
+	color:white;
+	text-align:center;
+	padding:14px 16px;
+	text-decoration:none;	
+}
+
+#menu a:hover {
+	background-color: #78C6E3;
+	color:white;
+}
+
+#mainContent
+{
+	width:85%
+	margin:auto;
+	text-align:center;
+}
+
+
+#description {
+	margin:auto;
+	width:85%;
+	font-size:10pt;
+	padding:10px;
+}
+
+#scrollBox
+{
+	height:500px;
+	width:60%;
+	overflow:scroll;
+	margin:auto;
+	font-size:10pt;
+}
+
+#scrollBox img
+{
+	width:75%;
+}
+
+#result-table
+{
+	width:50%;
+	margin:auto;
+	text-align:center;
+}
+
+#hotels {
+	width:50%;
+	float:left;
+}
+
+#restaurants {
+	width:50%;
+	float:right;
+}
+
+#footer {
+	margin:auto;
+	width:85%;
+	font-size:10pt;
+	padding-top:10px;
+}
+
+#itinerary {
+	width:50%;
+	float:left;
+
+}
+
+
+#subscribe {
+	width:50%;
+	float:right;
+
+}
+
+#buttons {
+	max-width:50%;
+	margin:auto;
+}
+
+#previous {
+	cursor:pointer;
+	color:#0870AF;
+	float:left;
+	
+}
+
+#next {
+	cursor:pointer;
+	color:#0870AF;
+	float:right;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background:#DFD491;
+}
+
+::-webkit-scrollbar-track {
+  background:#F8F5C7;
+}

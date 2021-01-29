@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+   <meta charset="UTF-8">
+   <link href="style.css" rel="stylesheet" type="text/css"> 
+  <title>Seascape Tours: Explore Newport</title>
+  <script src="weather.js"></script>
+	</head>
+<body>
+	<div id="header"><center><h1>Seascape Tours</h1></center></div>
+
+	
+<div id="menu">
+  <a href="home.html">Home</a>
+  <a href="astoria.html">Tour Astoria</a>
+  <a href="newport.html">Tour Newport</a>
+  <a href="bandon.html">Tour Bandon</a>
+  <a href="hiking.html">Hike the Coast</a>
+</div>
+
+<div id="mainContent">
+	<h3>Tour Newport</h3>
+	<div id="scrollBox">
+<table>
+	<tr>
+		<td><img src="images/newport1.jpg"></td>
+		<td><b>Aquarium of the Pacific</b><br>
+			See sea otters eat and play, touch anemones in a tide pool, and watch sharks swim overhead in an underwater tunnel. Newport boasts the largest aquarium in Oregon, and has many exciting permanent features as well as visiting exhibitions.
+			<br>
+			image source: <a href="https://pixabay.com/images/id-3194453/">Pixabay</a>
+		</td>
+	</tr>
+	<tr>
+		<td><b>Yaquina Head Lighthouse</b><br>
+			Call ahead of time to arrange a tour, or just enjoy the view of this cliff-top lighthouse, one of the oldest in Oregon.
+			<br>
+			image source: <a href="https://pixabay.com/images/id-514814/">Pixabay</a>
+		</td>
+		<td><img src="images/newport2.jpg"></td>
+	</tr>
+	<tr>
+		<td><img src="images/newport3.jpg"></td>
+		<td><b>Yaquina Tidepools</b><br>
+			The unique ecosystem of these pools shows visitors many unusual creatures that are usually hidden by the waves. In the Fall and Spring, seals may also be swimming nearby or napping on the rocks.
+			<br>
+			image source: <a href="https://pixabay.com/images/id-2769733/">Pixabay</a>
+		</td>
+	</tr>
+	<tr>
+		<td><b>Old Town</b><br>
+			Explore a number of tasty seafood restaurants and souvenir shops. During migration season, you will see (and hear!) sea lions basking on the docks.
+			<br>
+			image source: <a href="https://pixabay.com/images/id-1836801/">Pixabay</a>
+		</td>
+		<td><img src="images/newport4.jpg"></td>
+	</tr>
+	</table>
+	<br>
+	<form>
+   <legend>What's the weather?</legend>
+   <label>Press submit to see the current weather in Newport</label>
+  <br>
+   <input type="text" name="zip" id="zip" value="97365"><br>
+   <input type="submit" name="submit_data" id="submit_data">
+   </form>
+   <table id="results" align="center">
+   <tr>
+   <td id="result_weather">  </td>
+   </tr>
+   <tr>
+   <td id="result_temp">  </td>
+   </tr>
+   </table>
+   <br><br>
+</div>
+</div>
+	<div id="description">
+		<div id="hotels">
+			<b>Recommended Hotels</b>
+			<ul>
+				<li><a href="https://www.innatnyebeach.com/">Inn at Nye Beach</a> $$$</li>
+				<li><a href="https://www.nyebeachcondosandcottages.com/">Nye Beach Condos</a> $$</li>
+				<li><a href="https://www.thewaveshotel.com/">The Waves Hotel</a> $</li>
+			</ul>
+		</div>
+		<div id="restaurants">
+			<b>Recommended Restaurants</b>
+			<ul>
+				<li><a href="https://clearwaterrestaurant.com/">Clearwater Restaurant</a></li>
+				<li><a href="https://www.nye-beach-cafe.com/">Nye Beach Cafe</a></li>
+				<li><a href="http://www.moschowder.com/">Mo's Original Restaurant</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="footer">
+		<div id="itinerary">
+				Download a sample itinerary:<br>
+			<button type="submit" onclick="window.open('familyweekend.pdf')">Download!</button>
+				</div>
+		<div id=subscribe>
+				Subscribe for updates<br>
+				<form id="signup" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" method="post">
+			<input type="text" name="email" id="email" value="you@email.com">
+        <input type="submit" id = "submit"></form></div>
+	</div>
+</body>
+</html>
